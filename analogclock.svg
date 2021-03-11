@@ -1,0 +1,20 @@
+<svg width="1000" height="1000" viewBox="0 0 200 200"  >
+    <g>
+        <line x1="100" y1="100" x2="100" y2="55" transform="rotate(80 100 100)"
+            style="stroke-width: 0.2px; stroke: #fffbf9;" id="hourhand">
+            <animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="43200s"
+                repeatCount="indefinite" />
+        </line>
+        <line x1="100" y1="100" x2="100" y2="40" style="stroke-width: 0.2px; stroke: #fdfdfd;"
+            id="minutehand">
+            <animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="3600s"
+                repeatCount="indefinite" />
+        </line>
+        <line x1="100" y1="100" x2="100" y2="30" style="stroke-width: 0.2px; stroke: #fdfdfd;"
+            id="secondhand">
+            <animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="60s"
+                repeatCount="indefinite" />
+        </line>
+    </g>
+
+</svg>
